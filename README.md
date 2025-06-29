@@ -34,7 +34,6 @@ You can create a lightweight PRD directly within Cursor:
     ```
     *(Pro Tip: For complex PRDs, using MAX mode in Cursor is highly recommended if your budget allows for more comprehensive generation.)*
 
-    ![Example of initiating PRD creation](https://pbs.twimg.com/media/Go6DDlyX0AAS7JE?format=jpg&name=large)
 
 ### 2️⃣ Generate Your Task List from the PRD
 
@@ -48,13 +47,10 @@ With your PRD drafted (e.g., `MyFeature-PRD.md`), the next step is to generate a
     ```
     *(Note: Replace `@MyFeature-PRD.md` with the actual filename of the PRD you generated in step 1.)*
 
-    ![Example of generating tasks from PRD](https://pbs.twimg.com/media/Go6FITbWkAA-RCT?format=jpg&name=medium)
 
 ### 3️⃣ Examine Your Task List
 
 You'll now have a well-structured task list, often with tasks and sub-tasks, ready for the AI to start working on. This provides a clear roadmap for implementation.
-
-![Example of a generated task list](https://pbs.twimg.com/media/Go6GNuOWsAEcSDm?format=jpg&name=medium)
 
 ### 4️⃣ Instruct the AI to Work Through Tasks (and Mark Completion)
 
@@ -70,8 +66,6 @@ To ensure methodical progress and allow for verification, we'll use `process-tas
 
     The AI will attempt the task and then prompt you to review.
 
-    ![Example of starting on a task with process-task-list.mdc](https://pbs.twimg.com/media/Go6I41KWcAAAlHc?format=jpg&name=medium)
-
 ### 5️⃣ Review, Approve, and Progress ✅
 
 As the AI completes each task, you review the changes.
@@ -81,15 +75,7 @@ As the AI completes each task, you review the changes.
 
 You'll see a satisfying list of completed items grow, providing a clear visual of your feature coming to life!
 
-![Example of a progressing task list with completed items](https://pbs.twimg.com/media/Go6KrXZWkAA_UuX?format=jpg&name=medium)
-
 While it's not always perfect, this method has proven to be a very reliable way to build out larger features with AI assistance.
-
-### Video Demonstration 🎥
-
-If you'd like to see this in action, I demonstrated it on [Claire Vo's "How I AI" podcast](https://www.youtube.com/watch?v=fD4ktSkNCw4).
-
-![Demonstration of AI Dev Tasks on How I AI Podcast](https://img.youtube.com/vi/fD4ktSkNCw4/maxresdefault.jpg)
 
 ## 🗂️ Files in this Repository
 
