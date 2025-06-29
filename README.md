@@ -1,10 +1,10 @@
-# 🚀 AI Dev Tasks for Cursor 🤖
+# AI Dev Tasks for Cursor
 
 Welcome to **AI Dev Tasks**! This repository provides a collection of `.mdc` (Markdown Command) files designed to supercharge your feature development workflow within the [Cursor](https://cursor.sh/) editor. By leveraging these commands with Cursor's AI Agent, you can systematically approach building features, from ideation to implementation, with built-in checkpoints for verification.
 
 Stop wrestling with monolithic AI requests and start guiding your AI collaborator step-by-step!
 
-## ✨ The Core Idea
+## The Core Idea
 
 Building complex features with AI can sometimes feel like a black box. This workflow aims to bring structure, clarity, and control to the process by:
 
@@ -14,11 +14,11 @@ Building complex features with AI can sometimes feel like a black box. This work
 
 This structured approach helps ensure the AI stays on track, makes it easier to debug issues, and gives you confidence in the generated code.
 
-## Workflow: From Idea to Implemented Feature 💡➡️💻
+## Workflow: From Idea to Implemented Feature
 
 Here's the step-by-step process using the `.mdc` files in this repository:
 
-### 1️⃣ Create a Product Requirement Document (PRD)
+### Create a Product Requirement Document (PRD)
 
 First, lay out the blueprint for your feature. A PRD clarifies what you're building, for whom, and why.
 
@@ -35,7 +35,7 @@ You can create a lightweight PRD directly within Cursor:
     *(Pro Tip: For complex PRDs, using MAX mode in Cursor is highly recommended if your budget allows for more comprehensive generation.)*
 
 
-### 2️⃣ Generate Your Task List from the PRD
+### Generate Your Task List from the PRD
 
 With your PRD drafted (e.g., `MyFeature-PRD.md`), the next step is to generate a detailed, step-by-step implementation plan for your AI Developer.
 
@@ -48,11 +48,11 @@ With your PRD drafted (e.g., `MyFeature-PRD.md`), the next step is to generate a
     *(Note: Replace `@MyFeature-PRD.md` with the actual filename of the PRD you generated in step 1.)*
 
 
-### 3️⃣ Examine Your Task List
+### Examine Your Task List
 
 You'll now have a well-structured task list, often with tasks and sub-tasks, ready for the AI to start working on. This provides a clear roadmap for implementation.
 
-### 4️⃣ Instruct the AI to Work Through Tasks (and Mark Completion)
+### Instruct the AI to Work Through Tasks (and Mark Completion)
 
 To ensure methodical progress and allow for verification, we'll use `process-task-list.mdc`. This command instructs the AI to focus on one task at a time and wait for your go-ahead before moving to the next.
 
@@ -66,7 +66,7 @@ To ensure methodical progress and allow for verification, we'll use `process-tas
 
     The AI will attempt the task and then prompt you to review.
 
-### 5️⃣ Review, Approve, and Progress ✅
+### Review, Approve, and Progress
 
 As the AI completes each task, you review the changes.
 
@@ -77,13 +77,13 @@ You'll see a satisfying list of completed items grow, providing a clear visual o
 
 While it's not always perfect, this method has proven to be a very reliable way to build out larger features with AI assistance.
 
-## 🗂️ Files in this Repository
+## Files in this Repository
 
 * **`create-prd.mdc`**: Guides the AI in generating a Product Requirement Document for your feature.
 * **`generate-tasks.mdc`**: Takes a PRD markdown file as input and helps the AI break it down into a detailed, step-by-step implementation task list.
 * **`process-task-list.mdc`**: Instructs the AI on how to process the generated task list, tackling one task at a time and waiting for your approval before proceeding. (This file also contains logic for the AI to mark tasks as complete).
 
-## 🌟 Benefits
+## Benefits
 
 * **Structured Development:** Enforces a clear process from idea to code.
 * **Step-by-Step Verification:** Allows you to review and approve AI-generated code at each small step, ensuring quality and control.
@@ -91,7 +91,7 @@ While it's not always perfect, this method has proven to be a very reliable way 
 * **Improved Reliability:** Offers a more dependable approach to leveraging AI for significant development work compared to single, large prompts.
 * **Clear Progress Tracking:** Provides a visual representation of completed tasks, making it easy to see how much has been done and what's next.
 
-## 🛠️ How to Use
+## How to Use
 
 1. **Clone or Download:** Get these `.mdc` files into your project or a central location where Cursor can access them.
 2. **Follow the Workflow:** Systematically use the `.mdc` files in Cursor's Agent chat as described in the 5-step workflow above.
@@ -99,14 +99,14 @@ While it's not always perfect, this method has proven to be a very reliable way 
     * Feel free to modify the prompts within the `.mdc` files to better suit your specific needs or coding style.
     * If the AI struggles with a task, try rephrasing your initial feature description or breaking down tasks even further.
 
-## 💡 Tips for Success
+## Tips for Success
 
 * **Be Specific:** The more context and clear instructions you provide (both in your initial feature description and any clarifications), the better the AI's output will be.
 * **MAX Mode for PRDs:** As mentioned, using MAX mode in Cursor for PRD creation (`create-prd.mdc`) can yield more thorough and higher-quality results if your budget supports it.
 * **Correct File Tagging:** Always ensure you're accurately tagging the PRD filename (e.g., `@MyFeature-PRD.md`) when generating tasks.
 * **Patience and Iteration:** AI is a powerful tool, but it's not magic. Be prepared to guide, correct, and iterate. This workflow is designed to make that iteration process smoother.
 
-## 🤝 Contributing
+## Contributing
 
 Got ideas to improve these `.mdc` files or have new ones that fit this workflow? Contributions are welcome!
 
